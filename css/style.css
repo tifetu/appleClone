@@ -8,6 +8,37 @@ body {
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Montserrat", sans-serif;
 }
+
+/* for link only */
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #515154;
+  text-decoration: none;
+}
+/* only two link */
+.links-wrapper-highlight ul li a {
+  padding: 0 10px;
+  color: blue;
+  text-decoration: none;
+}
+.links-wrapper-highlight ul li {
+  display: inline-block;
+}
+
+.links-wrapper-highlight ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding: 0 10px 0 4px;
+}
+.links-wrapper-highlight ul li a:hover {
+  color: black;
+}
+/* ende link style */
+
 /* header style */
 .header-wrapper {
   background-color: #000000;
@@ -45,6 +76,32 @@ body {
   width: 18px;
   display: block;
 }
+
+/* third section */
+
+.third-highlight-wrapper {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 580px;
+  padding: 65px 20px;
+}
+.title {
+  font-weight: 600;
+  font-size: 56px;
+}
+.description {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.price {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* ende third section style */
+
 /* sixth section */
 .linked {
   display: inline-flex;
@@ -92,10 +149,8 @@ body {
 .mac {
   font-weight: 700;
   font-size: 45px;
-  
 }
 .best {
- 
   font-size: 15px;
   padding-bottom: 5px;
 }
@@ -114,6 +169,4 @@ body {
 
 .pod {
   font-size: 30px;
-  
 }
-
