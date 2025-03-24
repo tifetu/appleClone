@@ -128,8 +128,16 @@ a {
 }
 /* ende third section style */
 /* fourth section start */
+
+.fourth-highlight-wrapper {
+  display: flex;
+  /* -webkit-box-pack: justify; */
+  justify-content: space-between;
+  background: #fff;
+}
+
 .fourth-highlight-wrapper .left {
-  background-image: url("../myimages/home/watch-series-5.jpg");
+  background-image: url("../images/home/watch-series-5.jpg");
 }
 .left .description {
   max-width: 430px;
@@ -139,7 +147,7 @@ a {
 }
 /* bg  right sid*/
 .fourth-highlight-wrapper .right {
-  background-image: url("../myimages/home/apple-card.jpg");
+  background-image: url("../images/home/apple-card.jpg");
 }
 .right .description {
   padding: 10px;
