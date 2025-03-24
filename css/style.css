@@ -77,6 +77,36 @@ a {
   display: block;
 }
 
+/* Section 2 starts here */
+
+.iPhone11P {
+  padding-top: 50px;
+  color: white;
+  background-image: url(../images/home/iphone11-pro-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 580px;
+  text-align: center;
+}
+
+.commonlink a{
+color: blue;
+}
+
+.commonlink a::after{
+  font-family: fontAwesome;
+  content: \f054;
+
+}
+
+
+
+.commonlink a:hover {
+  color: black;
+}
+
+
 /* third section */
 
 .third-highlight-wrapper {
@@ -101,6 +131,55 @@ a {
   font-size: 0.85em;
 }
 /* ende third section style */
+
+/* section 5 */
+.fifth-heghlight-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-heghlight-wrapper .left {
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.fifth-heghlight-wrapper .right {
+  background-image: url("../images/home/air-pods.jpg");
+  color: #fff;
+  background-size: initial;
+  background-position: bottom;
+  background-color: #000000;
+}
+.fifth-heghlight-wrapper .servent {
+  margin: 200px 0;
+}
+.fifth-heghlight-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+
+.right {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0 0.5%;
+  text-align: center;
+  padding-top: 54px;
+}
+.left {
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%;
+  text-align: center;
+  padding-top: 54px;
+}
+ /* section 5 ends here */
 
 /* sixth section */
 .linked {
