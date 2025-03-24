@@ -90,22 +90,18 @@ a {
   text-align: center;
 }
 
-.commonlink a{
-color: blue;
+.commonlink a {
+  color: blue;
 }
 
-.commonlink a::after{
+.commonlink a::after {
   font-family: fontAwesome;
   content: \f054;
-
 }
-
-
 
 .commonlink a:hover {
   color: black;
 }
-
 
 /* third section */
 
@@ -131,6 +127,25 @@ color: blue;
   font-size: 0.85em;
 }
 /* ende third section style */
+/* fourth section start */
+.fourth-highlight-wrapper .left {
+  background-image: url("../myimages/home/watch-series-5.jpg");
+}
+.left .description {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+}
+/* bg  right sid*/
+.fourth-highlight-wrapper .right {
+  background-image: url("../myimages/home/apple-card.jpg");
+}
+.right .description {
+  padding: 10px;
+  font-size: 20px;
+}
+/* end fourth section */
 
 /* section 5 */
 .fifth-heghlight-wrapper {
@@ -179,7 +194,7 @@ color: blue;
   text-align: center;
   padding-top: 54px;
 }
- /* section 5 ends here */
+/* section 5 ends here */
 
 /* sixth section */
 .linked {
