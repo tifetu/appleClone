@@ -359,3 +359,7 @@ a {
 .upper-text-container a {
   color: #515154;
 }
+.copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
