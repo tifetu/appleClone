@@ -76,6 +76,18 @@ a {
   width: 18px;
   display: block;
 }
+/* first section start here  */
+.first-highlight-wrapper {
+  background: fixed;
+  text-align: center;
+  padding: 25px 0;
+}
+.first-highlight-wrapper .model {
+  font-size: 20px;
+}
+.first-highlight-wrapper .description {
+  font-size: 2em;
+}
 
 /* Section 2 starts here */
 
